@@ -207,11 +207,15 @@ Two Power BI reports were created using the Gold Layer data model. Each report e
        - A considerable proportion of journeys also took place duting the evening peaks, alignging with after work and leisure activities.
 
 
- Yellow NYC taxi report                      |           Green NYC taxi report             
-  :-----------------------------------------:|:------------------------------------------:|
-  ![](yellow_nyctaxi_pbi.png)                |   ![](raw_olist_to_stg_olist_ingestion.png)
+ Yellow NYC taxi report                      |                        
+  :-----------------------------------------:|
+  ![](yellow_nyctaxi_pbi.png)                |        
+
        
 
+ Green NYC taxi report                    |                    
+  :--------------------------------------:|
+  ![](greennyctaxi_pbi.png)               |
 
 
 
