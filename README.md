@@ -23,6 +23,10 @@ The project follows the Medallion Architecture pattern, ensuring clean data prog
 
 ---
 
+![](Architecture_diagram.svg)
+
+---
+
 **Data Flow Summary**
 
 ---
