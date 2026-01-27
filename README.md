@@ -209,7 +209,7 @@ Two Power BI reports were created using the Gold Layer data model. Each report e
 
  Yellow NYC taxi report                      |           Green NYC taxi report             
   :-----------------------------------------:|:------------------------------------------:|
-  ![](raw_glb_to_stg_glb_ingestion.png)      |   ![](raw_olist_to_stg_olist_ingestion.png)
+  ![](yellow_nyctaxi_pbi.png)                |   ![](raw_olist_to_stg_olist_ingestion.png)
        
 
 
