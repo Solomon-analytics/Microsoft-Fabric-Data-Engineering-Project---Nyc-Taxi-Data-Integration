@@ -25,6 +25,7 @@ The project follows the Medallion Architecture pattern, ensuring clean data prog
 
 ![](Architecture_diragram.svg)
 
+
 ---
 
 **Data Flow Summary**
@@ -143,6 +144,10 @@ Dataset for year 2025 ingested using **Mircosoft Fabric Pipeline**
 
 ---
 
+![](nyc taxi pipeline orchestration.png)
+
+---
+
 **Performance and Monitoring**
 
 Implemented **Delta Table History** to monitor update, insert, and delete metrics.
@@ -209,6 +214,8 @@ Two Power BI reports were created using the Gold Layer data model. Each report e
 
        - The majority of trips occurred during off-peak hours, demonstrating high availability and flexible customer demand outside traditional rush times.
        - A considerable proportion of journeys also took place duting the evening peaks, alignging with after work and leisure activities.
+
+---
 
 
  Yellow NYC taxi report                      |                        
