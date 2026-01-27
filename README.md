@@ -144,7 +144,7 @@ Dataset for year 2025 ingested using **Mircosoft Fabric Pipeline**
 
 ---
 
-![](nyc taxi pipeline orchestration.png)
+![](nyc_taxi_pipeline_orchestration.png)
 
 ---
 
