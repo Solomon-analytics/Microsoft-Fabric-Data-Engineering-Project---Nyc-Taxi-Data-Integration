@@ -2,13 +2,46 @@
 ---
 **Project Overview:**
 
-This project demonstrates a complete end-to-end data engineering solution using Microsoft Fabri Lakehouse.
+This project implements a fully parameterised, end-to-end data engineering solution using **Microsoft Fabric Lakehouse,** designed to integrate and analyse the **Yellow and Green Taxi datasets for 2025.**
 
-The goal is to integrate the Yellow and Green NYC Taxi datasets into a unified analytical data model following the medallion architecture (Raw --> Landing --> Bronze --> Silver --> Gold).
+The solution follows the **Medallion Architecture (Raw --> Landing --> Bronze --> Silver --> Gold),** implementing **Incremental ingestion, transformation, validation, and modelling** pipelines built with PySpark Notebooks orchestrated through **Fabric Data Pipelines.**
 
-The pipeline supports incremental ingestion, transformation, enrichment, and dimensional modelling, creating a fact table that combines both taxi datasets with detailed location and time-based insights.
+More than **42 million trip records** were processed into a **unified fact table** enriched with temporal and geographic dimensions to reveal demand patterns across NYC boroughs and times of day.
+The Gold layer serves as the analytical foundation for two **Power BI reports**, One for Yellow Taxi and one for Green Taxi, providing operational and performance insights such as hourly trip volumes, weekday patterns, borough flows, and seasonal trends.
+
+This project showcase key data engineering proficiencies including **Data Lakehouse design,** **DeltaLake Incremental Merge Logic, Dimensional Modelling, Data Quality Management, and Power BI Integration** within the Microsoft Fabric environment.
 
 ---
+
+**Project Objective:**
+
+      - Build a repeatable, parameterised ingestion pipeline
+      - Enforce data quality and consistency using PySpark rules
+      - integrate the Yellow and Green NYC Taxi datasets into a unified analytical data model following the medallion architecture (Raw --> Landing --> Bronze --> Silver --> Gold).
+      - Visualise operational performance
+
+---
+
+**Project Deliverable:**
+
+      - Five Fabric Notebooks integrated into a Data Pipeline
+      - Bronze --> Silver transformation with validation flags
+      - Fact and Dimension tables in Delta Lake
+      - Two Power BI reports with KPI cards and visuals
+
+---
+
+**Tech Stack:**
+
+      - Platform: Microsoft Fabric Lakehouse (Delta Architecture)
+      - Pipeline Orchestration: Fabric Data Pipeline
+      - Processing: PySpark (Spark Runtime)
+      - Storage: OneLake / DeltaLake / Parquet
+      - Visualisation: Power BI
+      - Languages: SQL & Python
+      
+---
+
 **Architecture Summary**
 
 The project follows the Medallion Architecture pattern, ensuring clean data progression, high data quality, and scalability.
